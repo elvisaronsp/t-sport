@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/server/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/web-server-bundle" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/server/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/server/vendor/composer" />
+      <path value="$PROJECT_DIR$/server/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/server/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/server/vendor/ramsey/uuid-doctrine" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/reflection" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/server/vendor/doctrine/persistence" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+</project>
