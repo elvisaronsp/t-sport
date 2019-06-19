@@ -1,19 +1,20 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Domain\Repository;
 
-
 use App\Domain\Entity\Tournament\Tournament;
-use Ramsey\Uuid\UuidInterface;
+use App\Domain\Entity\Tournament\TournamentId;
 
 interface TournamentRepositoryInterface
 {
 
     /**
-     * @param UuidInterface $id
+     * @param TournamentId $id
      * @return Tournament|null
      */
-    public function findTournament(UuidInterface $id): ?Tournament;
+    public function findTournament(TournamentId $id): ?Tournament;
 
     /**
      * @return array|null
