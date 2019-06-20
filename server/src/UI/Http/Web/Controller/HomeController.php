@@ -1,15 +1,14 @@
 <?php
 
+declare(strict_types=1);
 
 namespace App\UI\Http\Web\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-
 class HomeController extends AbstractRenderController
 {
-
     /**
      * @Route(
      *     "/",
@@ -23,7 +22,6 @@ class HomeController extends AbstractRenderController
      */
     public function get(): Response
     {
-        return $this->render('base.html.twig');
+        return $this->render('home/index.html.twig');
     }
-
 }
