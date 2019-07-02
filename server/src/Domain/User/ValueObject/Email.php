@@ -8,8 +8,11 @@ use Assert\Assertion;
 
 class Email
 {
+
     /**
+     * @param string $email
      * @throws \Assert\AssertionFailedException
+     * @return Email
      */
     public static function fromString(string $email): self
     {

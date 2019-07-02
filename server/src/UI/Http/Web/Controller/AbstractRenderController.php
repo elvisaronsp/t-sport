@@ -4,15 +4,20 @@ declare(strict_types=1);
 
 namespace App\UI\Http\Web\Controller;
 
-//use League\Tactician\CommandBus;
+use League\Tactician\CommandBus;
 use Symfony\Component\HttpFoundation\Response;
 
 class AbstractRenderController
 {
+
     /**
-     * @throws \Twig_Error_Loader
-     * @throws \Twig_Error_Runtime
-     * @throws \Twig_Error_Syntax
+     * @param string $view
+     * @param array $parameters
+     * @param int $code
+     * @return Response
+     * @throws \Twig\Error\LoaderError
+     * @throws \Twig\Error\RuntimeError
+     * @throws \Twig\Error\SyntaxError
      */
     protected function render(string $view, array $parameters = [], int $code = Response::HTTP_OK): Response
     {
@@ -31,23 +36,23 @@ class AbstractRenderController
         return $this->queryBus->handle($query);
     }
 
-    public function __construct(\Twig_Environment $template/*, CommandBus $commandBus, CommandBus $queryBus*/)
+    public function __construct(\Twig_Environment $template, CommandBus $commandBus, CommandBus $queryBus)
     {
         $this->template = $template;
-        //$this->commandBus = $commandBus;
-        //$this->queryBus = $queryBus;
+        $this->commandBus = $commandBus;
+        $this->queryBus = $queryBus;
     }
 
     /*
      * @var CommandBus
-     *
+     */
     private $commandBus;
 
     /**
      * @var CommandBus
-     *
+     */
     private $queryBus;
-    */
+
 
     /**
      * @var \Twig_Environment
